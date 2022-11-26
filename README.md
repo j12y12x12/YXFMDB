@@ -4,3 +4,4 @@
 
 具体使用可参见ViewControll中的示例，对Model进行操作。
 
+![image](https://github.com/j12y12x12/YXFMDB/blob/main/output.gif)

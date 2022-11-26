@@ -18,6 +18,7 @@
 		91C945792931D2A500119B54 /* YXFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C945782931D2A500119B54 /* YXFMDBTests.m */; };
 		91C945832931D2A500119B54 /* YXFMDBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C945822931D2A500119B54 /* YXFMDBUITests.m */; };
 		91C945852931D2A500119B54 /* YXFMDBUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C945842931D2A500119B54 /* YXFMDBUITestsLaunchTests.m */; };
+		91C945952931E49900119B54 /* YXFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C945942931E49900119B54 /* YXFMDB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		91C9457E2931D2A500119B54 /* YXFMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXFMDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C945822931D2A500119B54 /* YXFMDBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXFMDBUITests.m; sourceTree = "<group>"; };
 		91C945842931D2A500119B54 /* YXFMDBUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXFMDBUITestsLaunchTests.m; sourceTree = "<group>"; };
+		91C945932931E49900119B54 /* YXFMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXFMDB.h; sourceTree = "<group>"; };
+		91C945942931E49900119B54 /* YXFMDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXFMDB.m; sourceTree = "<group>"; };
 		CDE5BA0FFD68B8DE7723126E /* Pods-YXFMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXFMDB.release.xcconfig"; path = "Target Support Files/Pods-YXFMDB/Pods-YXFMDB.release.xcconfig"; sourceTree = "<group>"; };
 		DF404FF0E35FD3CF371CDC0A /* Pods-YXFMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXFMDB.debug.xcconfig"; path = "Target Support Files/Pods-YXFMDB/Pods-YXFMDB.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +131,7 @@
 		91C9455B2931D2A300119B54 /* YXFMDB */ = {
 			isa = PBXGroup;
 			children = (
+				91C945922931E47300119B54 /* YXFMDB */,
 				91C9455C2931D2A300119B54 /* AppDelegate.h */,
 				91C9455D2931D2A300119B54 /* AppDelegate.m */,
 				91C9455F2931D2A300119B54 /* SceneDelegate.h */,
@@ -158,6 +162,15 @@
 				91C945842931D2A500119B54 /* YXFMDBUITestsLaunchTests.m */,
 			);
 			path = YXFMDBUITests;
+			sourceTree = "<group>";
+		};
+		91C945922931E47300119B54 /* YXFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				91C945932931E49900119B54 /* YXFMDB.h */,
+				91C945942931E49900119B54 /* YXFMDB.m */,
+			);
+			path = YXFMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +349,7 @@
 			files = (
 				91C945642931D2A300119B54 /* ViewController.m in Sources */,
 				91C9455E2931D2A300119B54 /* AppDelegate.m in Sources */,
+				91C945952931E49900119B54 /* YXFMDB.m in Sources */,
 				91C9456F2931D2A500119B54 /* main.m in Sources */,
 				91C945612931D2A300119B54 /* SceneDelegate.m in Sources */,
 			);

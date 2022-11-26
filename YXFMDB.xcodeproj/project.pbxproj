@@ -19,6 +19,7 @@
 		91C945832931D2A500119B54 /* YXFMDBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C945822931D2A500119B54 /* YXFMDBUITests.m */; };
 		91C945852931D2A500119B54 /* YXFMDBUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C945842931D2A500119B54 /* YXFMDBUITestsLaunchTests.m */; };
 		91C945952931E49900119B54 /* YXFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C945942931E49900119B54 /* YXFMDB.m */; };
+		91C945982931E6DE00119B54 /* YXPersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C945972931E6DE00119B54 /* YXPersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		91C945842931D2A500119B54 /* YXFMDBUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXFMDBUITestsLaunchTests.m; sourceTree = "<group>"; };
 		91C945932931E49900119B54 /* YXFMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXFMDB.h; sourceTree = "<group>"; };
 		91C945942931E49900119B54 /* YXFMDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXFMDB.m; sourceTree = "<group>"; };
+		91C945962931E6DE00119B54 /* YXPersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPersion.h; sourceTree = "<group>"; };
+		91C945972931E6DE00119B54 /* YXPersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPersion.m; sourceTree = "<group>"; };
 		CDE5BA0FFD68B8DE7723126E /* Pods-YXFMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXFMDB.release.xcconfig"; path = "Target Support Files/Pods-YXFMDB/Pods-YXFMDB.release.xcconfig"; sourceTree = "<group>"; };
 		DF404FF0E35FD3CF371CDC0A /* Pods-YXFMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXFMDB.debug.xcconfig"; path = "Target Support Files/Pods-YXFMDB/Pods-YXFMDB.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +141,8 @@
 				91C945602931D2A300119B54 /* SceneDelegate.m */,
 				91C945622931D2A300119B54 /* ViewController.h */,
 				91C945632931D2A300119B54 /* ViewController.m */,
+				91C945962931E6DE00119B54 /* YXPersion.h */,
+				91C945972931E6DE00119B54 /* YXPersion.m */,
 				91C945652931D2A300119B54 /* Main.storyboard */,
 				91C945682931D2A500119B54 /* Assets.xcassets */,
 				91C9456A2931D2A500119B54 /* LaunchScreen.storyboard */,
@@ -348,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91C945642931D2A300119B54 /* ViewController.m in Sources */,
+				91C945982931E6DE00119B54 /* YXPersion.m in Sources */,
 				91C9455E2931D2A300119B54 /* AppDelegate.m in Sources */,
 				91C945952931E49900119B54 /* YXFMDB.m in Sources */,
 				91C9456F2931D2A500119B54 /* main.m in Sources */,
